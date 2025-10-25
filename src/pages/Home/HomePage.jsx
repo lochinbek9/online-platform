@@ -6,7 +6,7 @@ export default function HomePage() {
   const [menuOpen, setMenuOpen] = React.useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-900 to-gray-800">
       {/* Navbar */}
       <nav className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -72,12 +72,12 @@ export default function HomePage() {
 
           {/* Description */}
           <div className="max-w-3xl mx-auto">
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <div className="bg-black/50 rounded-lg shadow-lg p-8">
+              <p className="text-lg text-white leading-relaxed mb-6">
                 Bu zamonaviy va chiroyli home page dizayni. Bu yerda siz o'zingizning 
                 biznesingiz yoki shaxsiy loyihangiz haqida ma'lumot joylashtirishingiz mumkin.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <p className="text-lg text-white leading-relaxed mb-6">
                 Sahifa to'liq responsive bo'lib, barcha qurilmalarda mukammal ko'rinadi. 
                 Navbar, asosiy kontent va footer qismlari professional tarzda dizayn qilingan.
               </p>
