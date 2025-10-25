@@ -122,7 +122,7 @@ function VideoPlayer() {
             <div className="flex items-center space-x-4">
               <button
                 onClick={togglePlay}
-                className="text-white hover:text-blue-400 transition"
+                className="text-white  hover:text-blue-400 transition"
               >
                 {isPlaying ? <Pause className="w-8 h-8" /> : <Play className="w-8 h-8" />}
               </button>
@@ -133,18 +133,17 @@ function VideoPlayer() {
               >
                 <SkipBack className="w-6 h-6" />
               </button>
+              
               <button
                 onClick={() => skip(10)}
-                className="text-white hover:text-blue-400 transition"
-              >
+                className="text-white hover:text-blue-400 transition">
                 <SkipForward className="w-6 h-6" />
               </button>
 
               <div className="flex items-center space-x-2">
                 <button
                   onClick={toggleMute}
-                  className="text-white hover:text-blue-400 transition"
-                >
+                  className="text-white hover:text-blue-400 transition">
                   {isMuted ? <VolumeX className="w-6 h-6" /> : <Volume2 className="w-6 h-6" />}
                 </button>
                 <input
@@ -173,8 +172,8 @@ function VideoPlayer() {
             className="absolute inset-0 flex items-center justify-center bg-black/30 cursor-pointer"
             onClick={togglePlay}
           >
-            <div className="bg-blue-500/80 rounded-full p-6 hover:bg-blue-500 transition">
-              <Play className="w-16 h-16 text-white" />
+            <div className="bg-blue-500/80 rounded-full p-6 mb-18 hover:bg-blue-500 transition">
+              <Play className="sm:w-4 sm:h-4 md:w-8 md:h-8 lg:w-16 lg:h-16 text-white" />
             </div>
           </div>
         )}
