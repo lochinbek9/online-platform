@@ -1,4 +1,5 @@
 import React from 'react';
+import InfoSection from '../InfoSection/InfoSection';
 
 export default function Partners() {
   // Partner logolari (real loyihada rasmlar bo'ladi)
@@ -62,24 +63,7 @@ export default function Partners() {
         </div>
 
         {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
-          <div className="text-center">
-            <p className="text-4xl font-bold text-white mb-2">500+</p>
-            <p className="text-gray-400">Hamkorlar</p>
-          </div>
-          <div className="text-center">
-            <p className="text-4xl font-bold text-white mb-2">150+</p>
-            <p className="text-gray-400">Davlatlar</p>
-          </div>
-          <div className="text-center">
-            <p className="text-4xl font-bold text-white mb-2">1M+</p>
-            <p className="text-gray-400">Foydalanuvchilar</p>
-          </div>
-          <div className="text-center">
-            <p className="text-4xl font-bold text-white mb-2">99.9%</p>
-            <p className="text-gray-400">Uptime</p>
-          </div>
-        </div>
+       <InfoSection/>
       </div>
 
       <style jsx>{`
