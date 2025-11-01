@@ -13,7 +13,7 @@ export default function HomePage() {
     const [menuOpen, setMenuOpen] = React.useState(false);
 
     return (
-        <div className="min-h-screen flex flex-col  bg-gradient-to-br from-gray-900 to-gray-800">
+        <div className="min-h-screen flex flex-col  bg-black">
             {/* Navbar */}
             <Navbar />
 
@@ -31,7 +31,7 @@ export default function HomePage() {
 
         {/* Description */}
         <div className="max-w-3xl mx-auto">
-            <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg shadow-lg p-8 border border-gray-700">
+            <div className="bg-black-800/50 backdrop-blur-sm rounded-lg shadow-lg p-8 border border-gray-700">
                 <p className="text-lg text-gray-300 leading-relaxed mb-6">
                     Artificial intelligence makes it fast & easy to create content for your blog,
                     social media, website, and more! Rated 5/5 stars in 3,000+ reviews.

@@ -15,7 +15,7 @@ export default function Partners() {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 py-16">
+    <div className="bg-black py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <div className="text-center mb-12">
@@ -26,8 +26,8 @@ export default function Partners() {
         {/* Slider Container */}
         <div className="relative overflow-hidden">
           {/* Gradient Overlays */}
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-gray-900 to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-gray-900 to-transparent z-10"></div>
+          <div className="absolute left-0 top-0 bottom-0 w-32 bg-black z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-black z-10"></div>
 
           {/* Sliding Animation */}
           <div className="flex animate-scroll">

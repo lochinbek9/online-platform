@@ -5,7 +5,7 @@ function Navbar() {
       const [menuOpen, setMenuOpen] = useState(false);
     
   return (
-    <nav className="bg-gray-800 border-b border-gray-700 shadow-lg">
+    <nav className="bg-black border-b border-gray-700 shadow-lg">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center h-16">
         <div className="flex items-center space-x-2">

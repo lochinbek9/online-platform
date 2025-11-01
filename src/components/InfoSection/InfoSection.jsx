@@ -3,7 +3,7 @@ import { Sparkles, Brain, Zap, TrendingUp } from 'lucide-react';
 
 export default function InfoSection() {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 py-20">
+    <div className="bg-black py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Text Content */}
